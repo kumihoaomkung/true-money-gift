@@ -105,7 +105,6 @@ class VoucherCode
                  $res = [
                     "code" => 705,
                     "message" => "ลิ้งของขวัญ หมดอายุเเล้ว",
-                    "amount" => $res['status']['amount_baht']
                 ];
                 return $res;
             } else {
