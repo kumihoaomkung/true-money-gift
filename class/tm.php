@@ -95,6 +95,12 @@ class VoucherCode
                     "message" => "ลิงค์นี้ถูกใช้งานเรียบร้อยเเล้ว"
                 ];
                 return $res;
+            } elseif ($res['status']['code'] === "VOUCHER_NOT_FOUND") { 
+                $res = [
+                    "code" => 700,
+                    "message" => "ไม่ลิ้งของขวัญ"
+                ];
+                return $res;
             } else {
                 return $res;
             }
