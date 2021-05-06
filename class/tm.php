@@ -101,6 +101,13 @@ class VoucherCode
                     "message" => "ไม่ลิ้งของขวัญ"
                 ];
                 return $res;
+            } elseif($res['status']['code'] === "VOUCHER_EXPIRED "){
+                 $res = [
+                    "code" => 705,
+                    "message" => "ลิ้งของขวัญ หมดอายุเเล้ว",
+                    "amount" => $res['status']['amount_baht']
+                ];
+                return $res;
             } else {
                 return $res;
             }
