@@ -1,6 +1,6 @@
 # เติมเงินด้วยซองของขวัญ PHP
 
-[Facebook](https://www.facebook.com/MASURU.PAGE) | [Website](https://www.miho-anime.site/) | [Discord](https://www.masuru-discord.miho-anime.site/)
+[Facebook](https://www.facebook.com/MASURU.PAGE) | [Website](https://www.miho-anime.site/) | [Discord](https://www.masuru-discord.miho-anime.site/) | [Credit](https://github.com/REDzTrue/TruemoneyWallet-VouncherCode)
 
 ของฟรีอย่าเอาไปขายไอ้สัส
 
