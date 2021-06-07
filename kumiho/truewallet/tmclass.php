@@ -107,11 +107,3 @@ class TG
     }
 
 }
-
-
-if(isset($_POST['link'])){
-    $tm = new TG();
-    //                                ใส่เบอร์โทร        รับค่าลิงค์
-    $request = $tm->VoucherCode('0645091974', $_POST['link'], true);
-    print_r($request);
-}
